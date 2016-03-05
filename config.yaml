@@ -20,12 +20,12 @@ services:
                   options:
                     action:
                       # XXX Check API URL!
-                      apiUriTemplate: http://localhost/w/api.php
+                      apiUriTemplate: http://wiki.oldsaratov.ru/api.php
                     parsoid:
                       # XXX Check Parsoid URL!
                       host: http://localhost:8142
                     table:
-                      dbname: /data/restbase_tables.sqlite3
+                      dbname: db.sqlite3
                       pool_idle_timeout: 20000
                       retry_delay: 250
                       retry_limit: 10
@@ -40,7 +40,7 @@ services:
       mwApis:
         - domain: localhost
           prefix: localhost
-          uri: 'http://localhost/w/api.php'
+          uri: 'http://wiki.oldsaratov.ru/api.php'
           
 
 # Finally, a standard service-runner config.
