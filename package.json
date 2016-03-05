@@ -1,5 +1,5 @@
 {
-  "name": "mediawiki-node-services",
+  "name": "oldsaratov-node-services",
   "version": "0.1.0",
   "description": "Run several mediawiki nodejs services (RESTBase, Parsoid) in a single docker container. Useful for small / low-memory installs.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gwicke/mediawiki-node-services.git"
+    "url": "https://github.com/oldsaratov/mediawiki-node-services.git"
   },
   "keywords": [
     "mediawiki",
